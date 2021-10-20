@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+
+.calculator{    
+    background: rgb(43, 40, 40);
+    width:500px;
+    height:500px;
+    border:2px solid black;
+}
+
+.screen{
+    background:white;
+    display:flex;
+    height:100px;
+    flex-direction:column;
+    justify-content: center;
+    align-items:stretch;
+    flex-wrap:wrap;
+    padding:1em;
+    min-width:460px;
+}
+
+.upper-screen,
+.lower-screen
+{
+   
+    display:block;
+    height:100px;
+    border:1px solid green;
+    
+
+}
+
