@@ -10,6 +10,8 @@ let number1=0;
 let number2=0;
 let operatorSign="";
 
+
+
 //pushes first number to screen
 numbers.forEach(number=>number.addEventListener("click",()=>{
       if(lowerScreen.textContent=="Error, cant divide by 0")
