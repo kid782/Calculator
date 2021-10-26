@@ -14,7 +14,7 @@ body{
 
 .calculator{    
     background: black;
-    width:500px;
+    max-width:500px;
     height:600px;
     border:2px solid green;
     border-radius:3px;
@@ -29,7 +29,7 @@ body{
     justify-content: center;
     align-items:stretch;
     padding:1.2em;
-    min-width:460px;
+    max-width:460px;
     border:1px solid green;
 }
 
